@@ -3,3 +3,17 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.ImageContain {
+  background-size: cover;
+  background-position: center;
+  background-clip: content-box;
+  border: 3px solid #2aaccd;
+  height: 400px;
+  width: 400px;
+  box-shadow: 0 3px 6px rgba(25, 102, 121, 0.212), 0 3px 6px rgba(25, 102, 121,0.32);
+  position: relative;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+

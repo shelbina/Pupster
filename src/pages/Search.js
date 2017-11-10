@@ -8,8 +8,8 @@ import SearchBar from "../components/SearchBar.js"
 //   };
 
 const Search = () =>
-  <div>
-    <h1>Dog Search</h1>
+  <div className="container">
+    <h1 className="text-info">Pupster Search</h1>
     {/* This page allows you to search the [Dog Ceo API](https://dog.ceo/dog-api/) for all dogs by breed. 
     After a search is made, 
     a list of all of the results appears underneath. */}

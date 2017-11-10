@@ -5,11 +5,11 @@
 import React from 'react';
     const RatingButton = props =>
         <div>
-            <button onClick={props.searchImage} className="btn btn-primary">
+            <button onClick={props.searchImage} className="btn btn-info">
                 <span className="glyphicon glyphicon-heart" aria-hidden="true"></span>
                 Like 
             </button>
-            <button onClick={props.searchImage} className="btn btn-primary">
+            <button onClick={props.searchImage} className="btn btn-info">
                 <span className="glyphicon glyphicon-trash" aria-hidden="true"></span>
                 Dislike 
             </button>

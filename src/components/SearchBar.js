@@ -9,12 +9,12 @@ import React from 'react';
           value={props.value}
           name="searchbar"
           type="text"
-          className="form-control"
+          className="form-control border-info"
           placeholder="Search Pupster Images"
           id="searchbar"
         />
         <br />
-        <button onClick={props.handleFormSubmit} className="btn btn-primary">
+        <button onClick={props.handleFormSubmit} className="btn btn-info">
           Search
         </button>
       </div>
